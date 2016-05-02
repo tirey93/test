@@ -8,7 +8,6 @@
 void splitNumOnDigits(int input[],int output[][5]);
 void joinDigitsOnNum(int input[][5],int output[]);
 void drawNum(int output[]);
-void main()
 {
     int arr1[SIZE],arr2[SIZE][5],s1,i,j;
     drawNum(arr1);
@@ -26,6 +25,7 @@ void main()
     for(i=0;i<SIZE;i++)
         printf("%d\n",arr1[i]);
 }
+void main()
 void joinDigitsOnNum(int input[][5],int output[])
 {
     int i,j;
