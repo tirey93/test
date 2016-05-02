@@ -15,4 +15,5 @@ void main()
     joinDigitsOnNum(arr2,arr1);
     for(i=0;i<SIZE;i++)
         printf("%d\n",arr1[i]);
+        printf("%d\n",arr1[i]);
 }
